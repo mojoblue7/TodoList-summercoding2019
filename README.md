@@ -50,14 +50,20 @@ apt-get update
 apt-get install yarn
 ```
 
-<b>프로그램 다운</b>
+<b>프로그램 설치 및 빌드 </b>
 ```
 git clone git@github.com:mojoblue7/TodoList-summercoding2019.git
 
 cd test
 
+# install using yarn
+yarn install
+
 # build using yarn
 yarn run build
+
+# install using npm
+npm install
 
 # build using npm
 npm run build
